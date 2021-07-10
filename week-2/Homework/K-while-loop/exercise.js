@@ -9,7 +9,12 @@
 let n = 10;
 
 function sumTillNum(num){
-	//your code here
-}
 
-console.log("Sum from 0 to " + n + " is: " + sumTillNum(n));
+	while (n <= 10){
+return num = (n + 1) * n / 2;
+	
+	}
+
+}
+		
+console.log("Sum from 0 to " + n + " is: "  + sumTillNum(n) );
