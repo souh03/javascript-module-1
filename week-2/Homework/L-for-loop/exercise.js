@@ -9,7 +9,10 @@
 let n = 10;
 
 function sumTillNum(num){
-	//your code here
+	for (let n=10 ; n <= 10; n++){
+		return num = (n + 1) * n / 2;
+			
+			}
 }
 
 console.log("Sum from 0 to " + n + " is: " + sumTillNum(n));
