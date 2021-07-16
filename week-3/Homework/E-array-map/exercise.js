@@ -3,3 +3,25 @@
 
 var numbers = [0.1, 0.2, 0.3, 0.4, 0.5];
 
+function multiplied(number){
+    return number * 100;
+}
+ var multipliedby = numbers.map(multiplied);
+ console.log(multipliedby);
+
+ /* 2nd syntax */
+
+ var multipliedby = numbers.map(function multiplied(number){
+    return number * 100;
+ });
+
+
+ /* 3rd syntax */
+ var multipliedby = numbers.map(function(number){
+    return number * 100;
+ });
+
+
+ /* 4th syntax */
+
+ var multipliedby = numbers.map(number=> number * 100)

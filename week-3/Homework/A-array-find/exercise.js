@@ -6,8 +6,11 @@
 // write your code here
 
 var names = ["Rakesh", "Antonio", "Alexandra", "Andronicus", "Annam", "Mikey", "Anastasia", "Karim", "Ahmed"];
+function findname(name){
+ return name.startsWith ("A") && name.length > 7;
 
-var longNameThatStartsWithA = findLongNameThatStartsWithA(names);
+}
+var longNameThatStartsWithA = names.find(findname);
 
 console.log(longNameThatStartsWithA);
 
