@@ -9,9 +9,12 @@
 var pairsByIndexRaw = [[0, 3], [1, 2], [2, 1], null, [1], false, "whoops"];
 
 var pairsByIndex = [[0, 3], [1, 2], [2, 1], null, [3, 0]] ; // Complete this statement
- pairsByIndex.filter(Element=> Element);
-
-
+ function pairsOrnot(pairs) {
+var result = pairs.filter((pair) => Array.isArray(pair) && pair.length === 2)
+return result;
+ }
+ var pairsByIndex = pairsOrnot(pairsByIndexRaw);
+ 
 var students = ["Islam", "Lesley", "Harun", "Rukmini"];
 var mentors = ["Daniel", "Irina", "Mozafar", "Luke"];
 
